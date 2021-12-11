@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".notice.Notice7Activity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="详细信息："
+            android:textSize="30dp"
+            android:textColor="@color/black"/>
+
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="姓名：哈哈\n\n性别：♂\n\n年龄：3岁半\n\n基本情况：一只被遗弃的银灰色哈士奇，温柔亲人，毛毛厚实，特别好rua~\n\n特殊情况：哈士奇体型较大，需要较多的活动量和较大的空间，也需要主人较多的空余时间陪同玩耍，请领养人提前查阅该犬种的特点和习性，确定可以接受再与我们的同学联系~\n"
+                android:textSize="16dp"
+                android:layout_below="@+id/picturek"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:id="@+id/picturek"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/picture07"
+                android:scaleType="centerCrop"
+                android:layout_margin="10dp"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

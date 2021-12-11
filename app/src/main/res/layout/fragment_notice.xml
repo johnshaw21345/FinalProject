@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="notice.NoticeFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="领养信息："
+            android:textSize="30dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/gray">
+
+            <RelativeLayout
+                android:id="@+id/notice_0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:background="@color/white">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="姓名：猫坚强\n性别：♀\n年龄：4-5个月"
+                    android:textSize="16dp"
+                    android:layout_toEndOf="@+id/picture0"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"/>
+
+                <ImageView
+                    android:id="@+id/picture0"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/picture00"
+                    android:scaleType="centerCrop"
+                    android:layout_margin="10dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/notice_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:background="@color/white">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="姓名：小左、小右\n性别：♂\n年龄：3个月"
+                    android:textSize="16dp"
+                    android:layout_toEndOf="@+id/picture1"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"/>
+
+                <ImageView
+                    android:id="@+id/picture1"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/picture01"
+                    android:scaleType="centerCrop"
+                    android:layout_margin="10dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/notice_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:background="@color/white">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="姓名：烧仙草\n性别：♀\n年龄：3个月左右"
+                    android:textSize="16dp"
+                    android:layout_toEndOf="@+id/picture2"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"/>
+
+                <ImageView
+                    android:id="@+id/picture2"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/picture02"
+                    android:scaleType="centerCrop"
+                    android:layout_margin="10dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/notice_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:background="@color/white">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="姓名：白雪、小麦\n性别：♂、♀\n年龄：2个半月"
+                    android:textSize="16dp"
+                    android:layout_toEndOf="@+id/picture3"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"/>
+
+                <ImageView
+                    android:id="@+id/picture3"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/picture03"
+                    android:scaleType="centerCrop"
+                    android:layout_margin="10dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/notice_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:background="@color/white">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="姓名：小灰\n性别：♀\n年龄：2岁左右"
+                    android:textSize="16dp"
+                    android:layout_toEndOf="@+id/picture4"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"/>
+
+                <ImageView
+                    android:id="@+id/picture4"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/picture04"
+                    android:scaleType="centerCrop"
+                    android:layout_margin="10dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/notice_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:background="@color/white">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="姓名：二虎\n性别：♂\n年龄：1岁半"
+                    android:textSize="16dp"
+                    android:layout_toEndOf="@+id/picture5"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"/>
+
+                <ImageView
+                    android:id="@+id/picture5"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/picture05"
+                    android:scaleType="centerCrop"
+                    android:layout_margin="10dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/notice_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:background="@color/white">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="姓名：菁菁\n性别：♂\n年龄：8个月左右"
+                    android:textSize="16dp"
+                    android:layout_toEndOf="@+id/picture6"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"/>
+
+                <ImageView
+                    android:id="@+id/picture6"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/picture06"
+                    android:scaleType="centerCrop"
+                    android:layout_margin="10dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/notice_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:background="@color/white">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="姓名：哈哈\n性别：♂\n年龄：3岁半"
+                    android:textSize="16dp"
+                    android:layout_toEndOf="@+id/picture7"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"/>
+
+                <ImageView
+                    android:id="@+id/picture7"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/picture07"
+                    android:scaleType="centerCrop"
+                    android:layout_margin="10dp"/>
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

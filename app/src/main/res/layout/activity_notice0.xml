@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".notice.Notice0Activity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="详细信息："
+            android:textSize="30dp"
+            android:textColor="@color/black"/>
+
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:background="@color/white">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名：猫坚强\n\n性别：♀\n\n年龄：4-5个月\n基本情况：进行了截肢手术与内外驱虫并检查了传染病。\n\n正如它的名字一样，猫坚强挺过了一段艰难的时期，现已出院。作为一只三条腿的猫猫，走路、攀爬这些从前对猫坚强来说毫不费力的行为已经成了很艰巨的挑战，它已经不再适合流浪生活。寒冬将至，懂事得令人心疼的猫坚强十分需要一份耐心的呵护、一个温暖的家。\n\n请问你愿意带它回家吗？\n\n"
+            android:textSize="16dp"
+            android:layout_below="@+id/picturek"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:id="@+id/picturek"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/picture00"
+            android:scaleType="centerCrop"
+            android:layout_margin="10dp"/>
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

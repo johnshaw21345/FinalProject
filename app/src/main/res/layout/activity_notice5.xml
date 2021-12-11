@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".notice.Notice5Activity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="详细信息："
+            android:textSize="30dp"
+            android:textColor="@color/black"/>
+
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="姓名：二虎\n\n性别：♂\n\n年龄：1岁半\n\n基本情况：做过驱虫和绝育，是一只活泼可爱爱打滚的狗子，健康黏人~\n\n要是你也想每天回家有一只可爱的狗狗跳到你身上求抱抱，那就来领养它吧！\n"
+                android:textSize="16dp"
+                android:layout_below="@+id/picturek"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:id="@+id/picturek"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/picture05"
+                android:scaleType="centerCrop"
+                android:layout_margin="10dp"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>
